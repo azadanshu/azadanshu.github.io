@@ -27,6 +27,7 @@
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
+            <button id="resume-button-1"><a class="nav-link resume" id="resume-link-1" href="azad-anshu-resume.pdf" download="azad-anshu-resume">Resume</a></button>
 
             <span class="active-nav"></span>
             <span class="animate" style="--i:2;"></span>
@@ -165,96 +166,109 @@
 
     <!-- education section design @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-     <section class="education" id="education">
-        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
-
-        <div class="education-row">
-            <div class="education-column">
-                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
-
-                <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2014-2015</div>
-                            <h3>Matriculation</h3>
-                            <p></p>
-                        </div>
-                    </div>
-
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2017-2018</div>
-                            <h3>Intermediate Higher Secondery</h3>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2021-2024</div>
-                            <h3>Graduation</h3>
-                            <p>hile Pursuing graduation I have done my final year project which is based on Frontend Developer.</p>
-                        </div>
-                    </div>
-
-                    <span class="animate scroll" style="--i:3;"></span>
-                 </div>
-             </div>
-
-             <div class="education-column">
-                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
-
-                <div class="education-box">
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2021-2022</div>
-                            <h3>Accountant</h3>
-                            <p></p>
-                        </div>
-                    </div>
-
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2022-2023</div>
-                            <h3></h3>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <div class="education-content">
-                        <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i>2024-2025</div>
-                            <h3></h3>
-                            <p></p>
-                        </div>
-                    </div>
-
-                    <span class="animate scroll" style="--i:6;"></span>
-                 </div>
-             </div>
-
-        </div>
-     </section>
-     <section class="statistics" id="statistics">
-        <h1 class="section-title">
-          Github <span class="red boldtext">Statistics</span>
-        </h1>
-        <div class="statistics-container">
-          <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=azadanshu"
-            alt="github-stats-card" />
-    
-          <img id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=azadanshu&langs_count=4&theme=city_light&include_all_commits=true&count_private=true&layout=compact"
-            alt="github-top-langs" />
-    
-          <img id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=azadanshu&ring=5094f0&currStreakLabel=5094f0&fire=5094f0&theme=city_light"
-            alt="github-streak-stats" />
-        </div>
-        <div  class="react-activity-calendar">
-          <img style="width: 100%;" src="https://ghchart.rshah.org/azadanshu" alt="">
+    <section id="projects">
+        <h1>My <span class="boldtext red">Projects</span></h1>
+        <div class="pro-cards">
+          <div class="project-card">
+            <div class="pro-img">
+              <img src="./assets/projects/digitalpay.png" />
+            </div>
+            <div class="pro-cont">
+              <h1 class="boldtext project-num">01</h1>
+              <h3 class="project-title boldtext">Digital Pay</h3>
+              <p class="project-description">
+                Digital Pay is an online payment portal facilitating swift
+                transactions with features like sending money, transaction
+                records, and inviting contacts. Utilizing HTML, CSS, JavaScript,
+                and Bootstrap, it ensures a responsive interface. JSON server
+                manages data, enabling user authentication via fetch and local
+                storage for seamless data transmission.
+              </p>
+              <div class="project-tech-stack">
+                <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" /><img
+                  src="./assets/skills/javascript.svg" />
+              </div>
+              <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank" class="project-github-link">Github
+                Repo</a>
+              <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank" class="project-deployed-link">Deployed
+                Link</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="pro-img">
+              <img src="./assets/projects/apexcrafts.png" />
+            </div>
+            <div class="pro-cont">
+              <h1 class="boldtext project-num">02</h1>
+              <h3 class="project-title boldtext">Apex Crafts</h3>
+              <p class="project-description boldtext">
+                Apex Crafts is an online portfolio builder website designed to
+                establish users' online presence effectively. Utilizing vibrant
+                colors and smooth transitions, the desktop version offers a
+                user-friendly and interactive experience. Its purpose is to
+                showcase the services and projects of the Apex Crafts agency,
+                aiding in client attraction and providing easily accessible online
+                presence
+              </p>
+              <div class="project-tech-stack">
+                <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" />
+              </div>
+              <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github
+                Repo</a>
+              <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-deployed-link">Deployed
+                Link</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="pro-img">
+              <img src="./assets/projects/digitalpay.png" />
+            </div>
+            <div class="pro-cont">
+              <h1 class="boldtext project-num">03</h1>
+              <h3 class="project-title boldtext">Digital Pay</h3>
+              <p class="project-description">
+                Digital Pay is an online payment portal facilitating swift
+                transactions with features like sending money, transaction
+                records, and inviting contacts. Utilizing HTML, CSS, JavaScript,
+                and Bootstrap, it ensures a responsive interface. JSON server
+                manages data, enabling user authentication via fetch and local
+                storage for seamless data transmission.
+              </p>
+              <div class="project-tech-stack">
+                <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" /><img
+                  src="./assets/skills/javascript.svg" />
+              </div>
+              <a href="https://github.com/uvsingh007/web-dev-ratna-8765" target="_blank"
+                class="project-github-link red">Github Repo</a>
+              <a href="https://web-dev-ratna-8765-vlsn.vercel.app/" target="_blank"
+                class="project-deployed-link red">Deployed Link</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="pro-img">
+              <img src="./assets/projects/apexcrafts.png" />
+            </div>
+            <div class="pro-cont">
+              <h1 class="boldtext project-num">04</h1>
+              <h3 class="project-title boldtext">Apex Crafts</h3>
+              <p class="project-description boldtext">
+                Apex Crafts is an online portfolio builder website designed to
+                establish users' online presence effectively. Utilizing vibrant
+                colors and smooth transitions, the desktop version offers a
+                user-friendly and interactive experience. Its purpose is to
+                showcase the services and projects of the Apex Crafts agency,
+                aiding in client attraction and providing easily accessible online
+                presence.
+              </p>
+              <div class="project-tech-stack">
+                <img src="./assets/skills/html.svg" /><img src="./assets/skills/css.svg" />
+              </div>
+              <a href="https://github.com/uvsingh007/hissing-copper-9121" target="_blank" class="project-github-link">Github
+                Repo</a>
+              <a href="https://hissing-copper-9121.vercel.app/" target="_blank" class="project-deployed-link">Deployed
+                Link</a>
+            </div>
+          </div>
         </div>
         </section>
 
